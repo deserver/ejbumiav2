@@ -26,7 +26,6 @@ import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
 import javax.inject.Inject;
 import javax.inject.Named;
-import javax.ejb.EJB;
 
 import py.pol.una.ii.pw.model.Provider;
 import py.pol.una.ii.pw.service.ProviderRegistration;
