@@ -69,7 +69,6 @@ public class ProductController {
     
     private Long providerId;
     
-    @ManagedProperty(value="#{param.id}")
     private Long productId;
     
     @Produces

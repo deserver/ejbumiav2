@@ -55,7 +55,6 @@ public class CompraDetalle implements Serializable {
     private Long id;
 
 
-    @Basic
     @Column(name = "cantidad", nullable = true, insertable = true, updatable = true)
     private Long cantidad;
     
