@@ -43,8 +43,6 @@ import py.pol.una.ii.pw.data.ProductListProducer;
 // Read more about the @Model stereotype in this FAQ:
 // http://sfwk.org/Documentation/WhatIsThePurposeOfTheModelAnnotation
 @Model
-@ViewScoped
-@ManagedBean
 public class ProductController {
 
     @Inject

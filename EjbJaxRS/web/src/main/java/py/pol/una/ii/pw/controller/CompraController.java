@@ -43,9 +43,7 @@ import py.pol.una.ii.pw.service.ProductRegistration;
 // EL name
 // Read more about the @Model stereotype in this FAQ:
 // http://sfwk.org/Documentation/WhatIsThePurposeOfTheModelAnnotation
-//@Model
-@ViewScoped
-@ManagedBean
+@Model
 public class CompraController {
 
     @Inject
