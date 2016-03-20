@@ -68,7 +68,7 @@ public class Compra implements Serializable {
     private Provider proveedor;
     
     @OneToMany(mappedBy = "compra", cascade = CascadeType.ALL)
-    private List<CompraDetalle> detalles = new ArrayList<>();
+    private List<CompraDetalle> detalles = new ArrayList<CompraDetalle>();
     
     public Compra() {
     }

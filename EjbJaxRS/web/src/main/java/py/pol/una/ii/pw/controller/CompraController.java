@@ -206,7 +206,7 @@ public class CompraController {
 	public void addDetalleCompra() {
 
 		if(detallesCompra == null) {
-			detallesCompra = new ArrayList<>();
+			detallesCompra = new ArrayList<CompraDetalle>();
 		}
 
 		if(productoId != null) {

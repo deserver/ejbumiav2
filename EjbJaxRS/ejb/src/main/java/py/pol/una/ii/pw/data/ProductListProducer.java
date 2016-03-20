@@ -100,7 +100,7 @@ public class ProductListProducer {
     		return productsByProv = productRepository.findAllbyProvider(idprov);
     	}catch (Exception e){
     		e.printStackTrace();
-    		return new ArrayList<>();
+    		return new ArrayList<Product>();
     	}
     }
     
