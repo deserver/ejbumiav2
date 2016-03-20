@@ -21,7 +21,7 @@
    xmlns:h="http://java.sun.com/jsf/html"
    template="/WEB-INF/templates/default.xhtml">
    <ui:define name="content">
-      <h1>Comprar Productos</h1>
+      <h1>Comprar Productos Sergio</h1>
 		<a href="#{request.contextPath}/index.jsf"><h5>Atras</h5></a>
       <div>
          
@@ -53,7 +53,7 @@
                     <f:selectItems value="#{providers}" var="proov" itemValue="#{proov.id}"
                                    itemLabel="#{proov.name}"/>
 
-                     
+                    <f:ajax event="valueChange" process="proveedorCompra" update="formCompraDetalle" /> 
                      <h:commandButton id="act" action="#{compraController.getProductoByProveedor(proveedorId)}" update="formCompraDetalle" style="margin-left: 15px;" value="Go" label="Go"/> 
 
                 </h:selectOneMenu>

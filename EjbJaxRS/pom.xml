@@ -120,6 +120,12 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            
+            <dependency>
+				<groupId>org.postgresql</groupId>
+				<artifactId>postgresql</artifactId>
+				<version>9.3-1100-jdbc41</version>
+			</dependency>
 
         </dependencies>
     </dependencyManagement>
